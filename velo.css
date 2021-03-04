@@ -6,77 +6,32 @@ background-color: rgba(0,0,0,1);
 h1{
 font-family: 'Libre Baskerville', serif;
 font-weight: 700;
-color:rgba(250,250,225,1);
-font-size: 4em;
+color:rgba(50,50,50,1);
+font-size: 10em;
+text-align: center;
 }
-
-.end{
-font-family: 'Libre Baskerville', serif;
-font-weight: 700;
-color:rgba(0,0,0,1);
-font-size: 2em;
-text-align: right;
-}
-
-h3{
+p{
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.45rem;
+  font-size: 2rem;
   font-weight: 400;
   font-display: auto;
   font-kerning: normal;
   align-content: flex-start;
+  color:rgba(200,200,200,1);
 }
-.feet{
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  color:rgba(250,250,250,1);
-  font-size:.81em;
+.row{
+background-color: black;
 }
-.parrafo{
-background-color:rgba(255,255,175,1);
-color:rgba(0,0,0,1);
-padding: 1em;
-transition: .5s ease;
-border-radius: .1em;
+
+.der{
+text-align: left;
+align-content: flex-end;
 }
-.bg{
-background-color: rgba(10,10,0,1);
-background: url('/img/00.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-opacity:1;
-}
-.carousel-control-next{
-color:rgba(255,255,255,1);
-background-color: transparent;
+.page-holder {
+  min-height:145vh;
+  min-width::10vh;
+  opacity: 1;
 }
 .bg-img{
   background-size: cover !important;
-}
-
-.carousel-item{
-transition: transform 2s ease-out , opacity .1s ease;
-}
-
-.page-holder {
-  min-height: 100vh;
-  opacity: 1;
-}
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 10%;
-  padding: 0;
-  color: #000;
-  text-align: center;
-  background: transparent;
-  border: 100em;
-  opacity: .51;
-  transition: opacity 0.15s ease;
 }
